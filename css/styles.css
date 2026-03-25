@@ -7,19 +7,15 @@
 --color-texto: #222;
 }
       /* RESET */
-* {
-  margin: 0; 
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /*  BASE  */
 body {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background: var(--color-fondo);
     align-items: center;
-    height: 75vh;
+    height: 25vh;
 
 }
 
@@ -27,7 +23,7 @@ body {
 .btn-agregar{
     background-color: var(--color-primario);
     border: none;
-    padding: 10px;
+    padding: 3px;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -36,29 +32,6 @@ body {
 .btn-agregar:hover {
     background-color: #1aa381;
 }
-
 .container {
-    background: var(--color-superficie);
-    padding: 30px;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0 0 20px rgba(0,0,0,0,0.5);
-}
-
-.title {
-    margin-bottom: 20px;
-    text-align: center;
-    
-}
-
-.inpunt-tarea {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    outline: none;
-}
-.form {
-    display: flex;
+  margin-top: 230px;
 }
