@@ -1,26 +1,24 @@
+/*  VARIABLES
+Engloba todas las variables para ocuparse de manera global
+*/
 
-    /*  VARIABLES  */
 :root {
-    --color-fondo: #FFEBCD;
---color-superficie: white;
---color-primario: #22c7a9;
---color-texto: #222;
+    --color-fondo: #ffebcd;
+    --color-superficie: #ffffff;
+    --color-primario: #22c7a9;
+    --color-texto: #000000;
 }
-      /* RESET */
 
-
-/*  BASE  */
+/*  BASE 
+se constituye de todos los elemntos del html y esotos son organizados de manera lineal */
 body {
     display: flex;
-    justify-content: left;
-    background: var(--color-fondo);
-    align-items: center;
-    height: 25vh;
-
+    flex-direction: column;
+    background: var(--color-fondo);    
 }
 
-/* COMPONENTES */
-.btn-agregar{
+/* Esto es una clase llamada .btn-agregar que conecta con la etiqueta button en html*/
+.btn-agregar {
     background-color: var(--color-primario);
     border: none;
     padding: 3px;
@@ -28,10 +26,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-
+/* Hover es una clase que hace que al momento de que el ususario pase por encima el cursos se sombree */
 .btn-agregar:hover {
     background-color: #1aa381;
-}
-.container {
-  margin-top: 230px;
 }

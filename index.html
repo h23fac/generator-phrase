@@ -1,61 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To -Do List</title>
+    <title>Mi Almacen de Frases</title>
     <link rel="stylesheet" href="../css/styles.css">
-    
+
 </head>
+
 <body>
-    <div>
-        <div class="container"> 
-            <h2>Tipos de inpunt</h2>
-    <div><input placeholder="Tu nombre"></div>
-    <div><input type="email" placeholder="Tu email"></div>
-    <div><input type="tel" placeholder="tu numero"></div>
+    <!--Input es tipo de texto para colocar frases y se constituye de un atributo type tipo texto-->
+    <input type="text" placeholder="Pon tu Frase">
 
-     <div>
-        <input type="password" name="Contraseña" placeholder="Ingresar contraseña">
-     </div>
+    <!--Escojer tipo de botton y por ende un atributo type tipo button
+    El boton permitira agregar frases nuevas introduccidas en el input-->
+    <button class="btn-agregar" type="button">Agregar</button>
 
-     <div>
-        <input type="date" name="fecha">
-     </div>
-
+    <!--se usa div para hacer un listado de frases y por ende li que es indispensable un contenedor para mostrar las frases-->
     <div>
-          <input type="file" value="Enviar">
-    </div>
-    <div>
-        <input type="checkbox" name="opciones" value="Opcion1"> Opcion 1
-        <input type="checkbox" name="opciones" value="Opcion2"> Opcion 2
+        <ol>
+            <li> Aqui ira tu frase</li>
+            <li> Aqui ira tu frase</li>
+            <li> Aqui ira tu frase</li>
+            <li> Aqui ira tu frase</li>
+        </ol>
     </div>
 
-    <div>
-        <input type="radio" name="Opcion1"> opcion 1 
-        <input type="radio" name="Opcion2"> opcion 2
-
-    </div>
-    <>
-        <input type="image" src="imagen.png" alt="Enviar" width="50">
-        <div><textarea name="mensaje" rows="4" cols="40">Escriba su mensaje aqui</textarea></div>
-        <div><input type="reset" value="restablecer"></div>
-        <div><input type="range" min="0" max="100" step="1"></div>
-        <div><input type="search" name="busqueda" placeholder="Buscar..."></div>
-        <div><input type="time" name="Hora"></div>
-        <button class="btn-agregar">Registrar</button>
-        
-
-        </div>
-
-    </div>
-         
-     
-    
-    
-    
-
+    <!--Este boton eliminara frases y se constituye de un atributo llamado type con valor de tipo button-->
+    <button type="button">Elimina tu frase</button>
 </body>
 
 </html>
