@@ -10,7 +10,7 @@ Engloba todas las variables para ocuparse de manera global
 }
 
 /*  BASE 
-se constituye de todos los elemntos del html y esotos son organizados de manera lineal */
+se constituye de todos los elemntos del html y estos son organizados de manera lineal */
 body {
     display: flex;
     flex-direction: column;
