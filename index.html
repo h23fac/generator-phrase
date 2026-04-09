@@ -11,24 +11,23 @@
 
 <body>
     <!--Input es tipo de texto para colocar frases y se constituye de un atributo type tipo texto-->
-    <input type="text" placeholder="Pon tu Frase">
+    <input id="inputFrase" type="text" placeholder="Pon tu Frase">
 
     <!--Escojer tipo de botton y por ende un atributo type tipo button
     El boton permitira agregar frases nuevas introduccidas en el input-->
-    <button class="btn-agregar" type="button">Agregar</button>
+    <button id="btnAgregar" type="button">Agregar</button>
+    
+    <input id="busqueda" type="text" placeholder="Buscar Frase...">
 
     <!--se usa div para hacer un listado de frases y por ende li que es indispensable un contenedor para mostrar las frases-->
     <div>
-        <ol>
-            <li> Aqui ira tu frase</li>
-            <li> Aqui ira tu frase</li>
-            <li> Aqui ira tu frase</li>
-            <li> Aqui ira tu frase</li>
-        </ol>
+        <ol id="listaFrase"></ol>
     </div>
+    
 
-    <!--Este boton eliminara frases y se constituye de un atributo llamado type con valor de tipo button-->
-    <button type="button">Elimina tu frase</button>
+    <script src="script.js"></script>
+
 </body>
+
 
 </html>
