@@ -14,7 +14,7 @@ se constituye de todos los elemntos del html y esotos son organizados de manera 
 body {
     display: flex;
     flex-direction: column;
-    background: var(--color-fondo);    
+    background: var(--color-fondo);
 }
 
 /* Esto es una clase llamada .btn-agregar que conecta con la etiqueta button en html*/
@@ -26,7 +26,12 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+
 /* Hover es una clase que hace que al momento de que el ususario pase por encima el cursos se sombree */
 .btn-agregar:hover {
     background-color: #1aa381;
+}
+.favorita {
+    background-color: gold;
+    font-weight: bold;
 }
